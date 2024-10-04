@@ -7,6 +7,10 @@ input:user-invalid {
     border: 2px solid red;
 }
 
-input:user-invalid + span::before {
+input[type="email"]:user-invalid + span::before {
+    content: "*Please format email as \"myemail@email.com\"";
+}
+
+input[type="password"]:user-invalid + span::before {
     content: "*Passwords do not match";
 }
