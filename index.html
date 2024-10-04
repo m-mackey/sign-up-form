@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
-    <link rel="stylesheet" href="/styles/reset.css">
-    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts.js" defer></script>
 </head>
 <body>
@@ -34,20 +34,21 @@
             <input type="text" id="last_name" name="last_name">
         </p>
         <p>
-            <label for="email" id="email" name="email">Email</label>
-            <input type="email" name="email" id="email">
+            <label for="email" id="email" name="email">Email <span aria-label="required">*</span></label>
+            <input type="email" name="email" id="email" required>
         </p>
         <p>
             <label for="phone">Phone Number</label>
             <input type="tel" name="phone" id="phone">
         </p>
         <p>
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password">
+            <label for="password">Password <span aria-label="required">*</span></label>
+            <input type="password" name="password" id="password" minlength="8" required>
+            <span></span>
         </p>
         <p>
-            <label for="confirm_password">Confirm Password</label>
-            <input type="password" name="confirm_password" id="confirm_password">
+            <label for="confirm_password">Confirm Password <span aria-label="required">*</span></label>
+            <input type="password" name="confirm_password" id="confirm_password" minlength="8" required>
         </p>
         <p>
             <button type="submit">Create Account</button>
