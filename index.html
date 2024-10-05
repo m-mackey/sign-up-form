@@ -9,30 +9,30 @@
     <script src="scripts.js" defer></script>
 </head>
 <body>
-    <div>
+    <div class="logo-container">
         <figure>
-            <img src="images/odin-lined.png" alt="Odin Logo">
+            <img src="images/odin-lined.png" alt="Odin Logo" class="odin-logo">
             <figcaption>ODIN</figcaption>
         </figure>
         <p>Photo by Hallie West on Upsplash</p>
     </div>
 
-    <div>
+    <div class="form-container">
     <p>This is not a real service! Sign up to get started.</p>
 
     <form action="">
         <p>Let's do this!</p>
         <p>
-            <label for="first_name">
+            <label for="first-name">
                 <span>First Name</span>
             </label>
-            <input type="text" id="first_name" name="first_name">
+            <input type="text" id="first-name" name="first-name">
         </p>
         <p>
-            <label for="last_name">
+            <label for="last-name">
                 <span>Last Name</span>
             </label>
-            <input type="text" id="last_name" name="last_name">
+            <input type="text" id="last-name" name="last-name">
         </p>
         <p>
             <label for="email" id="email" name="email">Email <span aria-label="required">*</span></label>
@@ -49,8 +49,8 @@
             <span></span>
         </p>
         <p>
-            <label for="confirm_password">Confirm Password <span aria-label="required">*</span></label>
-            <input type="password" name="confirm_password" id="confirm_password" minlength="8" required>
+            <label for="confirm-password">Confirm Password <span aria-label="required">*</span></label>
+            <input type="password" name="confirm-password" id="confirm-password" minlength="8" required>
         </p>
         <p>
             <button type="submit">Create Account</button>

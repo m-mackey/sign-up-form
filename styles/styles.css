@@ -1,3 +1,29 @@
+/* Layout */
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.logo-container{
+    flex: 1;
+    background-color: chartreuse; /*placeholder*/
+}
+
+.form-container{
+    flex: 3;
+    background-color: palevioletred; /*placeholder*/
+}
+
+/* Logo Container Content Styles */
+.odin-logo{
+    width: 5em;
+}
+
+/* Form Container Content Styles */
+
 /* Validation Styling */
 input:user-valid {
     border: 2px solid green;
