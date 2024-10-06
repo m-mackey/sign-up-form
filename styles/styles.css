@@ -9,7 +9,7 @@ body {
 
 .logo-container{
     flex: 1;
-    background-color: chartreuse; /*placeholder*/
+    background: no-repeat center url(../images/plant-bg.jpg);
 }
 
 .form-container{
