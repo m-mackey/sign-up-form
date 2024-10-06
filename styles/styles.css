@@ -15,7 +15,7 @@ body {
 
 .form-container{
     flex: 3;
-    background-color: palevioletred; /*placeholder*/
+    background-color: #f9fafb;
 }
 
 /* Logo Container Content Styles */
@@ -28,6 +28,11 @@ body {
 };
 
 /* Form Container Content Styles */
+
+/* Form Styling */
+form {
+    background-color: white;
+}
 
 /* Validation Styling */
 input:user-valid {
