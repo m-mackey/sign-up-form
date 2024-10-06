@@ -10,6 +10,7 @@ body {
 .logo-container{
     flex: 1;
     background: no-repeat center url(../images/plant-bg.jpg);
+    color: white;
 }
 
 .form-container{
