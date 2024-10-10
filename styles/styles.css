@@ -76,6 +76,12 @@ button {
     padding: 0.5em 2.5em 0.5em 2.5em;
 }
 
+a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+}
+
 /* Validation Styling */
 input:user-valid {
     border: 2px solid green;
