@@ -31,6 +31,10 @@ body {
     background-color: #f9fafb;
 }
 
+.form-description{
+    max-inline-size: 66ch;
+}
+
 /* Logo Container Content Styles */
 .odin-logo{
     width: 5em;
