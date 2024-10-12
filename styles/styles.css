@@ -69,6 +69,7 @@ form {
 
 .form-description{
     max-inline-size: 66ch;
+    font-weight: 501;
 }
 
 label span:first-child{
