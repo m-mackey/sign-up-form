@@ -29,6 +29,10 @@ body {
 .form-container{
     flex: 3;
     background-color: #f9fafb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
 }
 
 /* Logo Container Content Styles */
@@ -99,6 +103,10 @@ button {
     text-decoration: none;
     color: #596D48;
     font-weight: bold;
+}
+
+.form-description, .form-fields-shadow, p:has(button), p:has(a) {
+    padding-left: 2rem;
 }
 
 /* Validation Styling */
