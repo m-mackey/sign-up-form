@@ -79,6 +79,12 @@ label span:first-child{
     text-transform: uppercase;
 }
 
+form p {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
 button {
     color: white;
     font-weight: bold;
