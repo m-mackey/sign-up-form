@@ -82,7 +82,7 @@ label span:first-child{
 form p {
     display: flex;
     flex-direction: column;
-    width: max-content;
+    width: 15rem;
 }
 
 button {
