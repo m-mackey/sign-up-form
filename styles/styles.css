@@ -75,6 +75,7 @@ figcaption {
 .form-description{
     max-inline-size: 66ch;
     font-weight: 501;
+    font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
 }
 
 .form-fields{
