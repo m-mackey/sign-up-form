@@ -83,7 +83,7 @@ figcaption {
 .form-fields{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* width: 90%; */
+    width: 77%;
     & p:first-child{
         grid-column-start: span 2;
         font-size: x-large;
