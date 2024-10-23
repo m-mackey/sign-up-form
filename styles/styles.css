@@ -86,6 +86,7 @@ figcaption {
     /* width: 90%; */
     & p:first-child{
         grid-column-start: span 2;
+        font-size: x-large;
     }
     gap: 1rem;
 }
